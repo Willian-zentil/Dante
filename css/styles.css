@@ -1,0 +1,94 @@
+body{
+    font-family:'Gotham';
+    margin: 0;
+}
+@font-face {
+    font-family: Gotham;
+    src: url('gotham/gotham.otf');
+}
+/* header */
+#img-logo{
+    max-width: 120px;
+}
+.header.content{
+    width: 90%;
+    height: 60px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo{
+    width: 70%;
+    float: left;
+    height: 77px;
+}
+/* menu */
+.menu{
+    width: 20%;
+    float: right;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title-menu{
+    padding: 8px 15px 0 0;
+    color: #fff;
+    
+}
+.menu h2{
+    font-size: 12px;
+}
+.menu table{
+    float: right;
+}
+.menu span{
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+/* video */
+body video{
+   /* filter: brightness(0.4);*/
+    background-size: cover;
+}
+#video-id{
+    position: absolute;
+   
+}
+.video-id>div{
+ filter: brightness(0.6);    
+}
+/* media desktop */
+@media(min-width: 800px){
+    /*titulos banner home */
+    .title-home{
+        font-size: 32px;
+    }
+    /* video */
+    #video{
+        width: 100%;
+    }
+    .title-home{/*filtro preto*/
+        position: absolute;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 108%;
+        color: #fff;
+    }
+    .title.banner{
+        padding: 10% 0 0 4%;
+    }
+}
+
+
+/* media mobile */
+@media(max-width: 800px){
+    .title-home h1{
+        display: none;
+    }
+   
+}
