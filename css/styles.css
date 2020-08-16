@@ -7,6 +7,9 @@ body{
     src: url('gotham/gotham.otf');
 }
 /* header */
+.section-1{
+    height: 724px;
+}
 #img-logo{
     max-width: 120px;
 }
@@ -17,6 +20,7 @@ body{
     position: absolute;
     margin-left: 5%;
     margin-right: 5%;
+    padding-top: 0.5em;
 }
 .logo{
     width: 70%;
@@ -25,7 +29,7 @@ body{
 }
 /* menu */
 .menu{
-    width: 20%;
+    width: 10%;
     float: right;
     height: 62px;
     display: flex;
@@ -91,4 +95,39 @@ body video{
         display: none;
     }
    
+}
+/*section-2*/
+.section-2 .content.section-2{
+    height: 500px;
+}
+.content.section-2 img{
+        position: absolute;
+        left: 804px;
+        top: 813px;
+}
+.text-section-2{
+    max-width: 700px;
+    padding-left: 4em;
+    padding-top: 3em;
+    line-height: 1.7em;
+}
+.text-section-2{
+    line-height: 1.7em;
+}
+.text-section-2 p{
+    padding-bottom: 1em;
+    color: gray;
+}
+.text-section-2 h2{
+    font-size: 36px;
+    line-height: 1.1;
+}
+.text-section-2 input{
+    padding: 12px 39px;
+    border-radius: 35px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    background-color: #ffbb36;
+    font-family: Gotham;
+    font-weight: 600;
 }
