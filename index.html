@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dante</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/assets.js"></script>
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
 </head>
 <body>
     <div class="section-1">
@@ -61,6 +69,60 @@
 
 
         </div>
+    </div>
+    <!-- -->
+    <div class="section-3">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="it-1">
+                        <h2 class="it-titulo">Okubo's Bar </h2>
+                        <p class="it-title-proj">identidade visual</p>
+                        <p class="it-description">Desenvolvimento de toda identidade visual</p>
+                    </div>
+                    <div class="it-2">
+                        <img src="image/okubo'sx1.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="it-1">
+                        <h2 class="it-titulo">Paty's UX</h2>
+                        <p class="it-title-proj">Web site</p>
+                        <p class="it-description">Desenvolvimento de nova plataforma virtual para empresa</p>
+                    </div>
+                    <div class="it-2">
+                        <img src="image/patys'sx1.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="it-1">
+                        <h2 class="it-titulo">Ste's motorcycles</h2>
+                        <p class="it-title-proj">E-commerce</p>
+                        <p class="it-description">Desenvolvimento de nova loja virtual para empresa</p>
+                    </div>
+                    <div class="it-2">
+                        <img src="image/ste's_motorx1.png">
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="../package/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+        </script>
     </div>
 </body>
 </html>

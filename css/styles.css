@@ -131,3 +131,42 @@ body video{
     font-family: Gotham;
     font-weight: 600;
 }
+/**/
+.section-3{
+    width: 100%;
+    height: 500px;
+    background-color: #0B2636;
+    color: #fff;
+}
+.it-1{
+    width: 30%;
+    padding-left: 7em;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    float: left;
+}
+.it-2{
+    display: flex;
+    width: 55%;
+    padding-left: 4em;
+    float: left;
+    justify-content: center;
+    align-content: center;
+    
+}
+.it-2 img{
+    align-self: center;
+}
+.swiper-container, .swiper-wrapper, .swiper-slide, .it-1, .it-2{
+    height: 100%;
+}
+.it-titulo{
+    font-size: 40px;    
+    font-weight: bolder;
+}
+.it-1 p{
+    font-size: 21px;
+}
