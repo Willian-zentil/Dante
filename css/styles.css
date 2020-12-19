@@ -1,4 +1,4 @@
-body {
+body, h3, h2, span, p {
     font-family: 'Gotham';
     margin: 0;
 }
@@ -84,57 +84,20 @@ body video {
     filter: brightness(0.6);
 }
 
-
-/* media desktop */
-
-@media(min-width: 800px) {
-    /*titulos banner home */
-    .title-home {
-        font-size: 32px;
-    }
-    /* video */
-    #video {
-        width: 100%;
-    }
-    .title-home {
-        /*filtro preto*/
-        position: absolute;
-        background: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        height: 108%;
-        color: #fff;
-    }
-    .title.banner {
-        padding: 10% 0 0 4%;
-    }
-}
-
-
-/* media mobile */
-
-@media(max-width: 800px) {
-    .title-home h1 {
-        display: none;
-    }
-}
-
-
 /*section-2*/
 
 .section-2 .content.section-2 {
-    height: 500px;
-}
-
-.content.section-2 img {
-    position: absolute;
-    left: 804px;
-    top: 813px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 .text-section-2 {
     max-width: 700px;
     padding-left: 4em;
-    padding-top: 3em;
     line-height: 1.7em;
 }
 
@@ -148,7 +111,7 @@ body video {
 }
 
 .text-section-2 h2 {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.1;
 }
 
@@ -211,4 +174,107 @@ body video {
 
 .it-1 p {
     font-size: 21px;
+}
+
+.section-4{
+    height: 730px;
+    margin: 0 4em 2em 7em;
+    display: flex;
+    align-items: center;
+}
+
+.section-5{
+    height: 500px;
+    background-color: #0B2636;
+}
+
+.container-servicos{
+    width: 100%;
+    margin-top: 75px;
+}
+
+.container-servicos span{
+    display: flex;
+    font-size: 40px;
+}
+
+.card-servicos{
+    width: 17%;
+    height: 330px;
+    padding: 1.5em;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.card-servicos img{
+    width: 60px;
+    margin-bottom: 17px;
+}
+
+.card-servicos:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,.1);
+}
+
+.card-servicos h2{
+    font-size: 20px!important;
+    line-height: 1.4!important;
+    margin-bottom: 15px;
+    color: #0b2636;
+}
+
+.card-servicos p{
+    color: #0b2636;
+    line-height: 1.5;
+}
+
+.card-servicos a{
+    text-decoration: none;
+}
+
+.group-servicos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+}
+
+.container-servicos h2{
+    line-height: 1.7em;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.container-servicos .p-estilo{
+    max-width: 566px;
+    line-height: 1.7em;
+    color: gray;
+    font-size: 21px;
+}
+
+
+@media(min-width: 800px) {
+    /*titulos banner home */
+    .title-home {
+        font-size: 32px;
+    }
+    /* video */
+    #video {
+        width: 100%;
+    }
+    .title-home {
+        /*filtro preto*/
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 108%;
+        color: #fff;
+    }
+    .title.banner {
+        padding: 10% 0 0 4%;
+    }
+}
+
+@media(max-width: 800px) {
+    .title-home h1 {
+        display: none;
+    }
 }
