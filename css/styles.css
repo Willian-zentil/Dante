@@ -115,7 +115,7 @@ body video {
     line-height: 1.1;
 }
 
-.text-section-2 input {
+.text-section-2 input, .sec-div2 input {
     padding: 12px 39px;
     border-radius: 35px;
     font-size: 18px;
@@ -123,6 +123,11 @@ body video {
     background-color: #ffbb36;
     font-family: Gotham;
     font-weight: 600;
+}
+
+.sec-div2 input{
+    max-width: 192px;
+    margin-top: 30px;
 }
 
 
@@ -184,7 +189,14 @@ body video {
 }
 
 .section-5{
-    height: 500px;
+    padding: 0 4em 2em 7em;
+    display: flex;
+    align-items: center;
+    border-bottom:  solid rgba(255,255,255,.1)
+}
+
+.section-5{
+    height: 353px;
     background-color: #0B2636;
 }
 
@@ -209,6 +221,12 @@ body video {
 .card-servicos img{
     width: 60px;
     margin-bottom: 17px;
+}
+
+.line-break{
+    background-color: #b7b7b7;
+    height:1px;
+    margin: auto 10%;
 }
 
 .card-servicos:hover{
@@ -237,10 +255,38 @@ body video {
     margin-top: 6%;
 }
 
-.container-servicos h2{
+.container-servicos h2, .sec-div1 span{
     line-height: 1.7em;
     font-weight: bolder;
     font-size: 40px;
+}
+
+.sec-div1 span, .sec-div2 span, .section-footer span{
+    color: #fff;
+    line-height: 1.5;
+}
+
+.sec-div1, .sec-div2{
+    width: 45%;
+    min-height: 136px;
+}
+
+.redes-sociais div{
+    background-color: #fff;
+    width: fit-content;
+    height: calc(100% - 19px);
+    float: left;
+    margin: 14px 14px 0 0;
+}
+
+.redes-sociais img{
+    max-width: 32px;
+}
+
+.sec-div2{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-servicos .p-estilo{
@@ -250,6 +296,32 @@ body video {
     font-size: 21px;
 }
 
+.section-footer{
+    height: 350px;
+    background-color: #0B2636;
+    /*width: 100%;*/
+    justify-content: space-around;
+    display: flex;
+    padding: 40px 5%;
+}
+
+.sec-div1{
+    margin-right: 10%;
+}
+
+.section-footer .column{
+    width: 17%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.section-footer h3{
+    color: #ffbb36;
+    padding-bottom: 22px;
+    padding-top: 25px;
+}
 
 @media(min-width: 800px) {
     /*titulos banner home */
